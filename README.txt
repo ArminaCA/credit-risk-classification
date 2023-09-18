@@ -3,7 +3,6 @@
 In this project, machine learning techniques were employed to assess a dataset containing historical lending activities of a peer-to-peer lending services company. The primary objective was to develop a model capable of accurately classifying the creditworthiness of borrowers.
 
 ## Analysis Overview
-
 The analysis encompassed various factors, including:
 
 - Loan size
@@ -22,19 +21,18 @@ The resampled data was subsequently employed to construct a new logistic regress
 
 ## Results
 
-**Logistic Regression Model 1:**
+Logistic Regression Model 1:
 
 - Precision: 93% (averaged; 100% precision for low-risk loans, 87% for high-risk loans)
 - Accuracy: 94%
 - Recall: 95% (averaged; 100% recall for low-risk loans, 89% for high-risk loans)
 
-**Logistic Regression Model 2:**
+Logistic Regression Model 2:
 
 - Precision: 93% (averaged; 100% precision for low-risk loans, 87% for high-risk loans)
 - Accuracy: 100%
 - Recall: 100%
 
 ## Summary
-
 Logistic Regression Model 2 exhibits a reduced likelihood of producing false negatives, making it more reliable in identifying high-risk loans. However, it is noteworthy that Logistic Regression Model 2 predicts slightly more false positives (misclassifying low-risk loans as high-risk). If the primary goal is to assess the likelihood of high-risk loans, neither model achieves precision above 90%. Nonetheless, Logistic Regression Model 2 outperforms the first model in terms of accuracy and recall, making it the preferred choice due to its high overall accuracy and recall rates.
 
